@@ -7,6 +7,7 @@ import Head from "next/head";
 import data from "../data.json";
 import LargeCard from "@/components/LargeCard";
 import LargeCardImg from "../public/largeCardImg.webp";
+import Footer from "@/components/Footer";
 
 const Home: FC = () => {
   return (
@@ -46,6 +47,7 @@ const Home: FC = () => {
           buttonText="Get Inspired"
         />
       </main>
+      <Footer />
     </>
   );
 };
