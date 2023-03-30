@@ -4,12 +4,12 @@ import BannerImg from "../public/banner.webp";
 
 const Banner: FC = () => {
   return (
-    <div className="relative h-[300px] sm:h-[400px] lg:h-[500px] xl:h-[600px] 2xl:h-[700px]">
+    <div className="relative h-[300px] sm:h-[400px] lg:h-[500px]">
       <Image
         src={BannerImg}
         alt="Banner"
         fill
-        className="object-cover"
+        className="object-cover object-bottom"
         priority
       />
       <div className="absolute top-1/2 w-full text-center">
